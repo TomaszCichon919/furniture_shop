@@ -22,7 +22,6 @@ const ShopProducts = () => {
   useEffect(() => {
     if (categoryId === 'furniture') {
       setCategoryProducts(products);
-
       const pageCount = Math.ceil(products.length / productsPerPage);
       setPagesCount(pageCount);
     } else {

@@ -4,10 +4,6 @@ import styles from './ProductList.module.scss';
 import ShopProducts from '../ShopProducts/ShopProducts';
 
 const ProductList = () => {
-  // const addToCart = e => {
-  //   e.preventDefault();
-  //   dispatch(addProduct({ id, name, img, price }));
-  // };
   return (
     <div className={styles.root}>
       <div className='container'>
